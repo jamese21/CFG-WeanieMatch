@@ -1,0 +1,46 @@
+:root {
+    --primary-purple: #894FBF;
+    --secondary-purple: #560C70;
+    --background: #EFEFEF;
+    --accent: #ffffff;
+    --header-bg: #ffffff;
+  }
+
+body {
+  font-family: 'Inria Sans';
+}
+/* Buttons that were made in Figma. */
+.purpleButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    background-color: var(--primary-purple);
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    transition: opacity infinite 100s;
+  
+  }
+  .purpleButton:hover{
+    opacity: 75%;
+  }
+  .loginForm{
+    display: flex; 
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+  }
+  
+  
+  .loginButton{
+    /* border: var(--primary-purple) solid 1px; */
+    color: white;
+    border-radius: 10px;
+    background-color: var(--primary-purple);
+    padding: 10px;
+    text-align: center;
+  }
+  
+  
